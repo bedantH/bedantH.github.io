@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+.ab_layout{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ab_layout svg{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, -20%);
+    z-index: -1;
+}
+
+.left{
+    position: relative;
+}
+
+.me{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right{
+    position: relative;
+    font-size: 1.3rem;
+}
+
+.right p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -60%);
+    line-height: 1.5;
+    font-family: 'Oxygen', sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+    .ab_layout{
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 700px;
+        height: initial;
+    }
+
+    .right p{
+        text-align: center;
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 70%;
+        top: 0;
+        transform: none;
+        left: 0;
+        font-size: 1.5rem;
+
+    }
+}

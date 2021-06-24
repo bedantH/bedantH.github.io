@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+.projectCard{
+    position: relative;
+    padding: 30px;
+    width: 300px;
+    height: 420px;
+    background: #F1F1F1;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25), -1px -6px 9px rgba(255, 255, 255, 0.88);
+    border-radius: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.projectCard h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 142%;
+    /* or 55px */
+    letter-spacing: 0.15em;
+    color: #6D6D6D;
+    margin-bottom: 5px;
+}
+
+.stack{
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 135%;
+
+    /* identical to box height, or 14px */
+    letter-spacing: 0.15em;
+
+    color: #757575;
+}
+
+.descript{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 135%;
+
+    /* or 23px */
+    letter-spacing: 0.10em;
+    color: #6D6D6D;
+}
+
+.github{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    text-align: right;
+    width: 50px;
+}
+
+.github a{
+    display: flex;
+    justify-content: center;
+    background: #EFEFEF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 13px 10px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* .projectCard{
+        margin-right: 20px;
+    } */
+}

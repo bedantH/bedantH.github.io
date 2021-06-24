@@ -1,0 +1,38 @@
+[
+    {
+        "proj_title": "KEEPER APP",
+        "proj_stack": "MERN STACK",
+        "proj_desc": "The KeeperApp is a simple Notes and Reminders taking app with great User experience.",
+        "url": "https://github.com/bedantH/Notera"
+    },
+    {
+        "proj_title": "NETFLIX LANDING PAGE CLONE",
+        "proj_stack": "React",
+        "proj_desc": "A clone of the Netflix Landing Page using React JS.",
+        "url": "https://github.com/bedantH/Netflix-landing-page-clone"
+    },
+    {
+        "proj_title": "ORGANIZE IT",
+        "proj_stack": "Python",
+        "proj_desc": "OraganizeIt organizes your files in certain folders. This package organizes your files into certain folders. E.g You can use it with...",
+        "url": "https://github.com/bedantH/python-automation"
+    },
+    {
+        "proj_title": "FACE MASK DETECTION",
+        "proj_stack": "Python",
+        "proj_desc": "Machine Learning Model that detects masks from an image with great accuracy.",
+        "url": "https://github.com/bedantH/FaceMask-Detection"
+    },
+    {
+        "proj_title": "WATCH IT",
+        "proj_stack": "MERN STACK",
+        "proj_desc": "WatchIt is a web app, that let's you stream YouTube content with your friends and family together without any screen sharing so, with clear audio and video.",
+        "url": "https://github.com/bedantH/WatchIt"
+    },
+    {
+        "proj_title": "TECHA FO",
+        "proj_stack": "Python",
+        "proj_desc": "Discord Bot that provides the latest tech-related news and events around the globe.",
+        "url": "https://github.com/bedantH/TechaFo-Discord-Bot"
+    }
+]

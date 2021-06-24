@@ -1,0 +1,36 @@
+.projects{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    margin: auto;
+    overflow: visible;
+}
+
+.projectsWrapper{
+    width: 100vw;
+}
+
+.projectsWrapper h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    margin: 80px 40px 0px 40px;
+}
+
+@media only screen and (max-width: 768px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .projects{
+        grid-template-columns: 1fr;
+    }
+}   
+
+@media only screen and (max-width: 425px){
+    .projectsWrapper h1{
+        margin-top: 120px;
+    }
+}

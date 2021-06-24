@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+.contactWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactWrapper h1{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    margin: 50px 40px 0px 40px;
+}
+
+.contactWrapper h2{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-left: 100px;
+    /* or 101px */
+    letter-spacing: 0.15em;
+}
+
+.leftWrap svg{
+    position: absolute;
+    bottom: 5px;
+    z-index: -10;
+}
+
+.leftWrap{
+    position: relative;
+}
+
+.rightWrap{
+    position: relative;
+    background-color: #5667FF;
+}
+
+.social{
+    margin-top: 100px;
+}
+
+.btnIcns{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+
+.mid_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: fit-content;
+}
+
+.mid_text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.2em;
+
+    /* or 55px */
+    letter-spacing: 0.15em;
+    margin-bottom: 10px;
+}
+
+.mid_text .mail{
+    margin-top: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 142%;
+
+    /* or 38px */
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+
+.mid_text hr{
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #FFFFFF;
+}
+
+.mid_text footer{
+    font-size: 12px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.downRes{
+    /* alignment */
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    /* design */
+    font-family: 'Oxygen', sans-serif;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    background: rgba(52, 48, 255, 0.92);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.downRes svg{
+    margin-left: 10px;
+}
+
+.btnIcns a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 7px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .contactWrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 550px 500px;
+    }
+
+    .contactWrapper h2{
+        font-size: 3rem;
+        display: block;
+        margin-left: 99px;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .contactWrapper h2{
+        margin-left: 40px;
+    }
+}
