@@ -7,7 +7,7 @@ export default function Landing() {
 
     useEffect(() => {
         var typed = new Typed('.dynamic-type', {
-            strings: ["developer", "designer", "entrepreneur"],
+            strings: ["a developer", "a designer", "an entrepreneur"],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true
@@ -26,7 +26,7 @@ export default function Landing() {
                         Hola !, <br /> I'm Bedant Hota
                     </h1>
                     <h3 className={landing.subHeading}>
-                        I’m a <span className="dynamic-type"></span>.
+                        I’m <span className="dynamic-type"></span>.
                     </h3>
                 </div>
             </section>
