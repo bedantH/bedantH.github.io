@@ -34,5 +34,23 @@
         "proj_stack": "Python",
         "proj_desc": "Discord Bot that provides the latest tech-related news and events around the globe.",
         "url": "https://github.com/bedantH/TechaFo-Discord-Bot"
+    },
+    {
+        "proj_title": "CENTAUR",
+        "proj_stack": "MERN STACK",
+        "proj_desc": "Centaur is a web-based college management system, that allows the teachers and students to take much out of their respective course. It can be used by both students, teachers or any personality involved in the college's management process.",
+        "url": "https://antaur-international.github.io/centaur-web/"
+    },
+    {
+        "proj_title": "CAVEAT",
+        "proj_stack": "Java | Android",
+        "proj_desc": "A simple grievance management system using Android, aimed at increasing transperancy in the students' grievance handling",
+        "url": "https://github.com/bedantH/caveat"
+    },
+    {
+        "proj_title": "Trailicious",
+        "proj_stack": "React | Typescript",
+        "proj_desc": "Simple Food Recipe web application with simple and minimalistic UI",
+        "url": "https://github.com/bedantH/Trailicious"
     }
 ]

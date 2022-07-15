@@ -79,7 +79,7 @@ export default function Contact() {
                     <h3>MAIL</h3>
                     <a className={styles.mail} href="mailto:bedanthota@yahoo.com">bedanthota@yahoo.com</a>
 
-                    <a className={styles.downRes} href="./BEDANTHOTA.pdf" download >
+                    <a className={styles.downRes} href="./BedantHota.pdf" download >
                         Download Resume
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2929 9.29289L13 12.5858V2H11V12.5858L7.70711 9.29289L6.29289 10.7071L12 16.4142L17.7071 10.7071L16.2929 9.29289ZM22 20V16H20V20H4V16H2V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20Z" fill="white" />
