@@ -1,7 +1,13 @@
 import React from "react";
 import { BsInstagram, BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
+import UseAnimations from "react-useanimations";
+import github from "react-useanimations/lib/github";
+import instagram from "react-useanimations/lib/instagram";
+import linkedin from "react-useanimations/lib/linkedin";
+import twitter from "react-useanimations/lib/twitter";
 import "./footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer__wrapper">
@@ -30,7 +36,19 @@ const Footer = () => {
                 className="footer__self_bio__container__social_link"
                 href="https://www.instagram.com/mohaneshhota/"
               >
-                <BsInstagram />
+                <UseAnimations
+                  animation={instagram}
+                  onClick={() => {
+                    setIsMobileNav((prev) => !prev);
+                  }}
+                  size={35}
+                  strokeColor="white"
+                  wrapperStyle={{
+                    zIndex: 2000,
+                    position: "relative",
+                    cursor: "pointer",
+                  }}
+                />
               </a>
             </li>
             <li>
@@ -38,7 +56,19 @@ const Footer = () => {
                 className="footer__self_bio__container__social_link"
                 href="https://twitter.com/BedantHota"
               >
-                <BsTwitter />
+                <UseAnimations
+                  animation={twitter}
+                  onClick={() => {
+                    setIsMobileNav((prev) => !prev);
+                  }}
+                  size={35}
+                  strokeColor="white"
+                  wrapperStyle={{
+                    zIndex: 2000,
+                    position: "relative",
+                    cursor: "pointer",
+                  }}
+                />
               </a>
             </li>
             <li>
@@ -46,7 +76,19 @@ const Footer = () => {
                 className="footer__self_bio__container__social_link"
                 href="https://www.linkedin.com/in/bedanth/"
               >
-                <BsLinkedin />
+                <UseAnimations
+                  animation={linkedin}
+                  onClick={() => {
+                    setIsMobileNav((prev) => !prev);
+                  }}
+                  size={35}
+                  strokeColor="white"
+                  wrapperStyle={{
+                    zIndex: 2000,
+                    position: "relative",
+                    cursor: "pointer",
+                  }}
+                />
               </a>
             </li>
             <li>
@@ -54,7 +96,19 @@ const Footer = () => {
                 className="footer__self_bio__container__social_link"
                 href="https://github.com/bedantH"
               >
-                <BsGithub />
+                <UseAnimations
+                  animation={github}
+                  onClick={() => {
+                    setIsMobileNav((prev) => !prev);
+                  }}
+                  size={35}
+                  strokeColor="white"
+                  wrapperStyle={{
+                    zIndex: 2000,
+                    position: "relative",
+                    cursor: "pointer",
+                  }}
+                />
               </a>
             </li>
           </ul>
@@ -66,7 +120,7 @@ const Footer = () => {
               style={{
                 marginTop: "10px",
                 color: "#6774FF",
-                marginLeft: "10px"
+                marginLeft: "10px",
               }}
             >
               <FaArrowRight />
@@ -74,7 +128,7 @@ const Footer = () => {
           </h3>
           <div
             style={{
-              gap: "40px"
+              gap: "40px",
             }}
             className="d-flex footer__contact__links"
           >
@@ -87,7 +141,7 @@ const Footer = () => {
                   fontSize: "1.1rem",
                   paddingBottom: "5px",
                   borderBottom: "1px solid #c4c4c4",
-                  marginTop: "15px"
+                  marginTop: "15px",
                 }}
                 href="mailto:bedanthota@yahoo.com"
               >
@@ -103,7 +157,7 @@ const Footer = () => {
                   fontSize: "1.1rem",
                   paddingBottom: "5px",
                   borderBottom: "1px solid #c4c4c4",
-                  marginTop: "15px"
+                  marginTop: "15px",
                 }}
                 href="tel:9136282434"
               >
@@ -119,14 +173,14 @@ const Footer = () => {
           height: "80px",
           bottom: "0px",
           borderTop: "1px solid #c4c4c4",
-          marginTop: "50px"
+          marginTop: "50px",
         }}
       >
         <p
           style={{
             width: "fit-content",
             margin: "20px auto",
-            display: "block"
+            display: "block",
           }}
         >
           Developed By @BedantHota

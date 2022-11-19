@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import UseAnimations from "react-useanimations";
-import menu2 from "react-useanimations/lib/menu2";
+import menu4 from "react-useanimations/lib/menu4";
 
 export default function Navbar() {
   const [isMobileNavOpen, setIsMobileNav] = useState(false);
@@ -12,13 +12,17 @@ export default function Navbar() {
       <ul className="navbar__list">
         <li>
           <UseAnimations
-            animation={menu2}
+            animation={menu4}
             onClick={() => {
               setIsMobileNav((prev) => !prev);
             }}
             size={28}
             strokeColor="white"
-            wrapperStyle={{ zIndex: 2000, position: "relative", cursor: "pointer" }}
+            wrapperStyle={{
+              zIndex: 2000,
+              position: "relative",
+              cursor: "pointer",
+            }}
           />
         </li>
       </ul>
