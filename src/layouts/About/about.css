@@ -1,0 +1,66 @@
+.about__container {
+  position: relative;
+  background-color: transparent;
+  width: 80%;
+  margin: 200px auto;
+}
+
+.cont__about {
+  font-size: 1rem;
+}
+
+.cont__about .about__h {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cont__about .about__desc {
+  width: 75%;
+  margin-top: 23px;
+  font-size: 1rem;
+}
+
+.cont__about span.slash {
+  color: #8752ff;
+}
+
+.cont__about h3 {
+  font-weight: 600;
+}
+
+.cont__projects {
+  margin-top: 20px;
+}
+
+.cont__projects .projs__d {
+  gap: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cont {
+    flex-direction: column;
+  }
+
+  .cont_h {
+    font-size: 0.7rem;
+  }
+
+  .cont .cont_h__d {
+    font-size: 2.3rem;
+    width: 100%;
+  }
+
+  .cont .cont__desc {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .cont__projects .projs__d {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 15px 0px;
+  }
+}

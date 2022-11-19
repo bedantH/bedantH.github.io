@@ -1,0 +1,14 @@
+.d-flex {
+  display: flex;
+}
+
+.mouse__follower {
+  background-color: rgb(49, 182, 226);
+  width: 100px;
+  height: 100px;
+  filter: blur(100px);
+  border-radius: 100%;
+  position: absolute;
+  transition: all ease 0.4s;
+  z-index: -1;
+}

@@ -1,0 +1,21 @@
+.projects__container {
+  margin-top: 50px;
+}
+
+.project__Card {
+  max-width: 400px;
+  width: 315px;
+  background-color: rgba(57, 57, 57, 0.4);
+  border-radius: 10px;
+  max-height: 430px;
+  height: 430px;
+}
+
+.project__Card .project__image {
+  max-width: 200px;
+  width: 200px;
+}
+
+.swiper.swiper-initialized.swiper-horizontal {
+  height: 500px;
+}

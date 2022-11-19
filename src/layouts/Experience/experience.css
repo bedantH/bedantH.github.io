@@ -1,0 +1,63 @@
+.experience__container {
+  background-color: transparent;
+  width: 80%;
+  margin: 200px auto;
+}
+
+.cont__exp {
+  font-size: 1rem;
+}
+
+.cont__exp .exp__h {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.cont__exp .exp__h.proj {
+  width: 70%;
+}
+
+.cont__exp .exp__desc {
+  width: 76%;
+  margin-top: 23px;
+  font-size: 1rem;
+}
+
+.cont__exp span.slash {
+  color: #8752ff;
+}
+
+.cont__exp h3 {
+  font-weight: 600;
+}
+
+.exp__chart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.exp__chart .exp__card {
+  position: relative;
+  border: 1px solid #585858;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cont__exp .exp__desc {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .cont__exp .exp__h {
+    font-size: 2.3rem;
+    width: max-content;
+  }
+
+  .cont__exp .exp__h.proj {
+    width: 100%;
+  }
+}
