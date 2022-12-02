@@ -40,8 +40,9 @@ export default function Hero() {
           Bedant Hota
         </h2>
         <p className="hero__desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt,
-          facere eveniet! Praesentium, vel sint deserunt commodi a saepe odio.
+          A passionate software developer who loves to explore programming
+          languages and create inspiring user experiences. Intrigued with
+          complexity and creativity and bringing them together in software.
         </p>
         <div className="button__cta__list">
           <button className="hero_cta cta__1">Connect with me!</button>
@@ -61,7 +62,7 @@ export default function Hero() {
             <span
               style={{
                 fontSize: "1rem",
-                display: "flex"
+                display: "flex",
               }}
             >
               <BiCoffeeTogo />

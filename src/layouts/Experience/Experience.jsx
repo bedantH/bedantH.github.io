@@ -65,7 +65,7 @@ const ExperienceCard = ({ image, name, duration, children }) => {
 
 const ExperienceLayout = () => {
   return (
-    <section className="experience__container cont d-flex">
+    <section id="experience" className="experience__container cont d-flex">
       <div className="cont__exp">
         <div className="cont_h d-flex">
           <span className="slash">/</span>
@@ -106,7 +106,7 @@ const ExperienceLayout = () => {
             width: "2px",
             height: "70px",
             borderRight: "2px dashed #ccc",
-            margin: "auto"
+            margin: "auto",
           }}
         ></div>
         <ExperienceCard

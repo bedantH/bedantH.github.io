@@ -17,7 +17,7 @@ const Contact = () => {
   });
 
   return (
-    <section className="skills__container cont">
+    <section id="contact" className="skills__container cont">
       <div className="cont__exp skills_head">
         <div className="cont_h d-flex">
           <span className="slash">/</span>
@@ -84,7 +84,7 @@ const Contact = () => {
               backgroundColor: "#ca49b4",
               color: "#fff",
               borderRadius: "6px",
-              textDecoration: "none"
+              textDecoration: "none",
             }}
           >
             Shazam

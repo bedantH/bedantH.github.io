@@ -1,8 +1,6 @@
 import React from "react";
 import "./about.css";
 
-import { AiOutlineTeam } from "react-icons/ai";
-
 export default function About() {
   return (
     <section id="about" className="about__container cont d-flex">
@@ -30,19 +28,19 @@ export default function About() {
             style={{
               justifyContent: "center",
               alignItems: "center",
-              gap: "20px"
+              gap: "20px",
             }}
           >
             <h4
               style={{
-                fontSize: "3.4rem"
+                fontSize: "3.4rem",
               }}
             >
-              1+
+              1.5+
             </h4>
             <p
               style={{
-                lineHeight: "1.2"
+                lineHeight: "1.2",
               }}
             >
               Years of <br /> Experience
@@ -53,19 +51,19 @@ export default function About() {
             style={{
               justifyContent: "center",
               alignItems: "center",
-              gap: "20px"
+              gap: "20px",
             }}
           >
             <h4
               style={{
-                fontSize: "3.4rem"
+                fontSize: "3.4rem",
               }}
             >
               12+
             </h4>
             <p
               style={{
-                lineHeight: "1.2"
+                lineHeight: "1.2",
               }}
             >
               Deployed <br /> projects
@@ -73,9 +71,9 @@ export default function About() {
           </div>
         </div>
         <p>
-          Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla
-          porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id
-          imperdiet et, porttitor at sem.
+          Steadily engaged in developing interesting UI experiences for the
+          patrons and writing quality code to ensure exceptional service while
+          exploring the creative aspects.
         </p>
       </div>
       <div
@@ -85,7 +83,7 @@ export default function About() {
           width: "100%",
           height: "0.5px",
           backgroundColor: "#CCCCCC",
-          borderRadius: "10px"
+          borderRadius: "10px",
         }}
       ></div>
     </section>

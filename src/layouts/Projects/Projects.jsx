@@ -70,13 +70,13 @@ const projectsData = [
 
 const ProjectCard = ({ image, tags, title, description, link }) => {
   return (
-    <div className="project__Card">
+    <div id="projects" className="project__Card">
       <img src={image} alt="1" border="0" />
       <div
         style={{
           display: "flex",
           gap: "10px",
-          margin: "10px 20px"
+          margin: "10px 20px",
         }}
       >
         {tags.map((tag) => {
@@ -86,7 +86,7 @@ const ProjectCard = ({ image, tags, title, description, link }) => {
                 fontSize: "12px",
                 padding: "2px 10px",
                 borderRadius: "15px",
-                backgroundColor: "#8550F7"
+                backgroundColor: "#8550F7",
               }}
             >
               {tag}
@@ -97,12 +97,12 @@ const ProjectCard = ({ image, tags, title, description, link }) => {
       <div
         style={{
           padding: "20px 20px",
-          paddingTop: "0px"
+          paddingTop: "0px",
         }}
       >
         <h5
           style={{
-            fontSize: "1.3rem"
+            fontSize: "1.3rem",
           }}
         >
           {title}
@@ -111,7 +111,7 @@ const ProjectCard = ({ image, tags, title, description, link }) => {
           style={{
             marginTop: "10px",
             width: "100%",
-            fontSize: "13px"
+            fontSize: "13px",
           }}
         >
           {description}
@@ -130,14 +130,14 @@ const ProjectCard = ({ image, tags, title, description, link }) => {
             color: "#ffffff",
             borderRadius: "8px",
             marginTop: "15px",
-            fontSize: "15px"
+            fontSize: "15px",
           }}
         >
           <span
             style={{
               marginTop: "2px",
               display: "block",
-              fontSize: "1.2rem"
+              fontSize: "1.2rem",
             }}
           >
             <BsGithub />

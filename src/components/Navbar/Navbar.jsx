@@ -38,10 +38,13 @@ export default function Navbar() {
           <a href="#about">About Me</a>
         </li>
         <li>
-          <a href="#events">Projects</a>
+          <a href="#experience">Work Experience</a>
         </li>
         <li>
-          <a href="#events">Blogs</a>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
         </li>
       </ul>
     </nav>
