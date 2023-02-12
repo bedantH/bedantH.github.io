@@ -161,19 +161,29 @@ const Projects = () => {
           So, <span className="gradient__text">what</span> I have worked on
           previously ?
         </p>
+        <p
+          style={{
+            marginTop: "10px",
+          }}
+        >
+          <em>
+            Some of my projects are down for maintenance, sorry for the
+            inconvenience.
+          </em>
+        </p>
       </div>
       <div className="projects__container">
         <Swiper
           breakpoints={{
             320: {
-              slidesPerView: 1
+              slidesPerView: 1,
             },
             700: {
-              slidesPerView: 1
+              slidesPerView: 1,
             },
             1000: {
-              slidesPerView: 3.5
-            }
+              slidesPerView: 3.5,
+            },
           }}
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={10}

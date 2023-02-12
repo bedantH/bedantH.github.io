@@ -50,11 +50,11 @@ const Skills = () => {
         style={{
           display: "grid",
           // okk got it
-          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
           gap: "20px",
           width: "100%",
           height: "auto",
-          marginTop: "30px"
+          marginTop: "30px",
         }}
       >
         {skills.map((item, index) => (
