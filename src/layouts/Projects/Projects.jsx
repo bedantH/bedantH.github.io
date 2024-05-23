@@ -31,7 +31,7 @@ const projectsData = [
     tags: ["Web Development", "MERN Stack"],
     title: "Centaur",
     description:
-      "The KeeperApp is a simple Notes and Reminders taking app with great User experience.",
+      "A University Management platform to facilitate centralized communication between various departments and parts of management.",
     link: "https://antaur-international.github.io/centaur-web/"
   },
   {
