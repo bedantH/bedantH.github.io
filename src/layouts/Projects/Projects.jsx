@@ -11,12 +11,43 @@ import "swiper/css/scrollbar";
 
 const projectsData = [
   {
-    image: "/Caveat.png",
-    tags: ["Android", "Static"],
-    title: "Caveat",
+    image: "./WebTrack.png",
+    tags: ["Chrome Extension", "Svelte", "On-going"],
+    title: "WebTrack",
     description:
-      "A simple grievance management system using Android, aimed at increasing transperancy in the students' grievance handling...",
-    link: "https://github.com/bedantH/caveat"
+      "WebTrack Pro is a powerful browser extension designed to empower users with comprehensive insights into their web browsing habits",
+    link: "https://github.com/bedantH/WebTrack",
+  },
+  {
+    image: "./formix.png",
+    tags: ["Full Stack", "On-going"],
+    title: "Formiz",
+    description: "A headless form builder with high customization features",
+    link: "https://github.com/bedantH/formiz",
+  },
+  {
+    image: "./xeno.png",
+    tags: ["Computer Vision", "React Native", "AI"],
+    title: "Xeno",
+    description:
+      "Assisting visually impaired individuals in navigation through computer vision. ",
+    link: "https://github.com/bedantH/xeno",
+  },
+  {
+    image: "./revive.png",
+    tags: ["Flutter", "App Development", "Solutions Challenge"],
+    title: "Revive",
+    description:
+      "Revive is an innovative app designed to promote sustainability by providing users with tips for recycling and reusing items, along with a feature to locate nearby recycling centers. ",
+    link: "https://github.com/bedantH/revive-flutter",
+  },
+  {
+    image: "./page.png",
+    tags: ["Tooling", "Core", "Typescript"],
+    title: "NextJS Page Router",
+    description:
+      "Tried to recreate how does NextJS' page router system works under the hood, for HTML ",
+    link: "https://github.com/bedantH/page-router",
   },
   {
     image: "/TheKeeperApp.png",
@@ -24,7 +55,7 @@ const projectsData = [
     title: "The Keeper App",
     description:
       "The KeeperApp is a simple Notes and Reminders taking app with great User experience.",
-    link: "https://github.com/bedantH/Notera"
+    link: "https://github.com/bedantH/Notera",
   },
   {
     image: "/Centaur.png",
@@ -32,7 +63,7 @@ const projectsData = [
     title: "Centaur",
     description:
       "A University Management platform to facilitate centralized communication between various departments and parts of management.",
-    link: "https://antaur-international.github.io/centaur-web/"
+    link: "https://antaur-international.github.io/centaur-web/",
   },
   {
     image: "/DiscordBot.png",
@@ -40,7 +71,7 @@ const projectsData = [
     title: "Discord Bot",
     description:
       "Simple Discord Bot helpful for students to get continuosly notified about the techincal events taking place near them.",
-    link: "https://github.com/bedantH/TechaFo-Discord-Bot"
+    link: "https://github.com/bedantH/TechaFo-Discord-Bot",
   },
   {
     image: "/OrganizeIt.png",
@@ -48,7 +79,7 @@ const projectsData = [
     title: "Organize It",
     description:
       "OraganizeIt organizes your files in certain folders. This package organizes your files into certain folders. E.g You can use it with....",
-    link: "https://github.com/bedantH/python-automation"
+    link: "https://github.com/bedantH/python-automation",
   },
   {
     image: "/WatchIt.png",
@@ -56,27 +87,19 @@ const projectsData = [
     title: "Watch It",
     description:
       "WatchIt is a web app, that let's you stream YouTube content with your friends and family together without any screen sharing so, with clear audio and video.",
-    link: "https://github.com/bedantH/WatchIt"
+    link: "https://github.com/bedantH/WatchIt",
   },
-  {
-    image: "/Trailicious.png",
-    tags: ["Web", "Full Stack", "MERN Stack"],
-    title: "Trailicious",
-    description:
-      "Simple Food Recipe web application with simple and minimalistic UI.",
-    link: "https://github.com/bedantH/Trailicious"
-  }
 ];
 
 const ProjectCard = ({ image, tags, title, description, link }) => {
   return (
     <div id="projects" className="project__Card">
-      <img src={image} alt="1" border="0" />
+      <img src={image} className="project__image" alt="1" border="0" />
       <div
         style={{
           display: "flex",
           gap: "10px",
-          margin: "10px 20px",
+          padding: "10px",
         }}
       >
         {tags.map((tag) => {
@@ -96,7 +119,7 @@ const ProjectCard = ({ image, tags, title, description, link }) => {
       </div>
       <div
         style={{
-          padding: "20px 20px",
+          padding: "10px",
           paddingTop: "0px",
         }}
       >
@@ -188,10 +211,9 @@ const Projects = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={10}
           slidesPerView={3.5}
-          pagination={{ clickable: true }}
+          cardsEffect={true}
+          mousewheel={true}
           scrollbar={{ draggable: true }}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <div>
             {projectsData.map((project) => {

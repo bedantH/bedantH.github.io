@@ -4,18 +4,25 @@
 
 .project__Card {
   max-width: 400px;
-  width: 315px;
-  background-color: rgba(57, 57, 57, 0.4);
+  background-color: rgba(57, 57, 57, 0.23);
   border-radius: 10px;
-  max-height: 430px;
-  height: 430px;
+  padding: 10px;
+  border: 1px solid rgb(77, 29, 180);
+  min-height: 500px;
 }
 
 .project__Card .project__image {
-  max-width: 200px;
-  width: 200px;
+  object-fit: contain;
+  width: 100%;
 }
 
 .swiper.swiper-initialized.swiper-horizontal {
   height: 500px;
+}
+
+.projects__layout {
+  width: 150%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }

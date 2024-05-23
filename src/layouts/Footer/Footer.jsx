@@ -26,7 +26,7 @@ const Footer = () => {
                 Bedant Hota
               </h4>
               <p className="footer__self_bio__container__description">
-                SDE at 'The Internet Folks'
+                I ❤️ building stuff
               </p>
             </div>
           </div>
@@ -143,9 +143,9 @@ const Footer = () => {
                   borderBottom: "1px solid #c4c4c4",
                   marginTop: "15px",
                 }}
-                href="mailto:bedanthota@yahoo.com"
+                href="mailto:codewithbedant@gmail.com"
               >
-                bedanthota@yahoo.com
+                codewithbedant@gmail.com
               </a>
             </div>
             <div>

@@ -66,7 +66,8 @@ export default function About() {
                 lineHeight: "1.2",
               }}
             >
-              Deployed <br /> projects
+              Completed <br />
+              Projects
             </p>
           </div>
         </div>
