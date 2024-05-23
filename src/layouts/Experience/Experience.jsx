@@ -82,7 +82,7 @@ const ExperienceLayout = () => {
         <ExperienceCard
           image="/TIF.jpeg"
           name="The Internet Folks"
-          duration="August, 2022 - Present"
+          duration="August, 2022 - Feb 2024"
         >
           <p>
             Working with an amazing team, and constantly developing SASS
